@@ -18,6 +18,7 @@ ChatWidget::ChatWidget(QWidget *parent) : QScrollArea(parent), ui(new Ui::ChatWi
 	this->setVerticalScrollBarPolicy(Qt::ScrollBarPolicy::ScrollBarAlwaysOn);
 	this->setHorizontalScrollBarPolicy(Qt::ScrollBarPolicy::ScrollBarAsNeeded);
 
+#if 0
 	QSizePolicy selfSizePolicy = this->sizePolicy();
 	selfSizePolicy.setHeightForWidth(true);
 	this->setSizePolicy(selfSizePolicy);
@@ -29,7 +30,7 @@ ChatWidget::ChatWidget(QWidget *parent) : QScrollArea(parent), ui(new Ui::ChatWi
 	contentsSizePolicy.setHeightForWidth(true);
 	ui->scrollAreaWidgetContents->setSizePolicy(contentsSizePolicy);
 	ui->scrollAreaWidgetContents->setMinimumWidth(400);
-
+#endif
 	this->setWidget(ui->scrollAreaWidgetContents);
 
 	topLayout = new QVBoxLayout();

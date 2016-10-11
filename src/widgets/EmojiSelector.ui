@@ -10,6 +10,12 @@
     <height>174</height>
    </rect>
   </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
@@ -17,38 +23,32 @@
    <property name="spacing">
     <number>0</number>
    </property>
-   <property name="leftMargin">
-    <number>0</number>
-   </property>
-   <property name="topMargin">
-    <number>0</number>
-   </property>
-   <property name="rightMargin">
-    <number>0</number>
-   </property>
-   <property name="bottomMargin">
+   <property name="margin">
     <number>0</number>
    </property>
    <item>
     <widget class="QTabWidget" name="tabWidget">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
      <property name="currentIndex">
       <number>0</number>
      </property>
      <widget class="QWidget" name="tabPeople">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
       <attribute name="title">
        <string>People</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayoutPeople">
-       <property name="leftMargin">
-        <number>0</number>
-       </property>
-       <property name="topMargin">
-        <number>0</number>
-       </property>
-       <property name="rightMargin">
-        <number>0</number>
-       </property>
-       <property name="bottomMargin">
+       <property name="margin">
         <number>0</number>
        </property>
        <property name="spacing">
@@ -67,21 +67,12 @@
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>764</width>
-            <height>146</height>
+            <width>760</width>
+            <height>135</height>
            </rect>
           </property>
           <layout class="QGridLayout" name="gridLayout">
-           <property name="leftMargin">
-            <number>5</number>
-           </property>
-           <property name="topMargin">
-            <number>5</number>
-           </property>
-           <property name="rightMargin">
-            <number>5</number>
-           </property>
-           <property name="bottomMargin">
+           <property name="margin">
             <number>5</number>
            </property>
            <property name="spacing">
@@ -126,16 +117,7 @@
        <string>Nature</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayoutNature">
-       <property name="leftMargin">
-        <number>0</number>
-       </property>
-       <property name="topMargin">
-        <number>0</number>
-       </property>
-       <property name="rightMargin">
-        <number>0</number>
-       </property>
-       <property name="bottomMargin">
+       <property name="margin">
         <number>0</number>
        </property>
        <property name="spacing">
@@ -154,21 +136,12 @@
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>764</width>
-            <height>146</height>
+            <width>760</width>
+            <height>135</height>
            </rect>
           </property>
           <layout class="QGridLayout" name="gridLayoutNature2">
-           <property name="leftMargin">
-            <number>5</number>
-           </property>
-           <property name="topMargin">
-            <number>5</number>
-           </property>
-           <property name="rightMargin">
-            <number>5</number>
-           </property>
-           <property name="bottomMargin">
+           <property name="margin">
             <number>5</number>
            </property>
            <property name="spacing">
@@ -213,16 +186,7 @@
        <string>Food and Drink</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayoutFoodAndDrink">
-       <property name="leftMargin">
-        <number>0</number>
-       </property>
-       <property name="topMargin">
-        <number>0</number>
-       </property>
-       <property name="rightMargin">
-        <number>0</number>
-       </property>
-       <property name="bottomMargin">
+       <property name="margin">
         <number>0</number>
        </property>
        <property name="spacing">
@@ -241,21 +205,12 @@
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>764</width>
-            <height>146</height>
+            <width>760</width>
+            <height>135</height>
            </rect>
           </property>
           <layout class="QGridLayout" name="gridLayoutFoodAndDrink2">
-           <property name="leftMargin">
-            <number>5</number>
-           </property>
-           <property name="topMargin">
-            <number>5</number>
-           </property>
-           <property name="rightMargin">
-            <number>5</number>
-           </property>
-           <property name="bottomMargin">
+           <property name="margin">
             <number>5</number>
            </property>
            <property name="spacing">
@@ -300,16 +255,7 @@
        <string>Celebration</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayoutCelebration">
-       <property name="leftMargin">
-        <number>0</number>
-       </property>
-       <property name="topMargin">
-        <number>0</number>
-       </property>
-       <property name="rightMargin">
-        <number>0</number>
-       </property>
-       <property name="bottomMargin">
+       <property name="margin">
         <number>0</number>
        </property>
        <property name="spacing">
@@ -328,21 +274,12 @@
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>764</width>
-            <height>146</height>
+            <width>760</width>
+            <height>135</height>
            </rect>
           </property>
           <layout class="QGridLayout" name="gridLayoutCelebration2">
-           <property name="leftMargin">
-            <number>5</number>
-           </property>
-           <property name="topMargin">
-            <number>5</number>
-           </property>
-           <property name="rightMargin">
-            <number>5</number>
-           </property>
-           <property name="bottomMargin">
+           <property name="margin">
             <number>5</number>
            </property>
            <property name="spacing">
@@ -387,16 +324,7 @@
        <string>Activity</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayoutActivity">
-       <property name="leftMargin">
-        <number>0</number>
-       </property>
-       <property name="topMargin">
-        <number>0</number>
-       </property>
-       <property name="rightMargin">
-        <number>0</number>
-       </property>
-       <property name="bottomMargin">
+       <property name="margin">
         <number>0</number>
        </property>
        <property name="spacing">
@@ -415,21 +343,12 @@
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>764</width>
-            <height>146</height>
+            <width>760</width>
+            <height>135</height>
            </rect>
           </property>
           <layout class="QGridLayout" name="gridLayoutActivity2">
-           <property name="leftMargin">
-            <number>5</number>
-           </property>
-           <property name="topMargin">
-            <number>5</number>
-           </property>
-           <property name="rightMargin">
-            <number>5</number>
-           </property>
-           <property name="bottomMargin">
+           <property name="margin">
             <number>5</number>
            </property>
            <property name="spacing">
@@ -474,16 +393,7 @@
        <string>Travel and Places</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayoutTravelAndPlaces">
-       <property name="leftMargin">
-        <number>0</number>
-       </property>
-       <property name="topMargin">
-        <number>0</number>
-       </property>
-       <property name="rightMargin">
-        <number>0</number>
-       </property>
-       <property name="bottomMargin">
+       <property name="margin">
         <number>0</number>
        </property>
        <property name="spacing">
@@ -502,21 +412,12 @@
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>764</width>
-            <height>146</height>
+            <width>760</width>
+            <height>135</height>
            </rect>
           </property>
           <layout class="QGridLayout" name="gridLayoutTravelAndPlaces2">
-           <property name="leftMargin">
-            <number>5</number>
-           </property>
-           <property name="topMargin">
-            <number>5</number>
-           </property>
-           <property name="rightMargin">
-            <number>5</number>
-           </property>
-           <property name="bottomMargin">
+           <property name="margin">
             <number>5</number>
            </property>
            <property name="spacing">
@@ -561,16 +462,7 @@
        <string>Objects</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayoutObjects">
-       <property name="leftMargin">
-        <number>0</number>
-       </property>
-       <property name="topMargin">
-        <number>0</number>
-       </property>
-       <property name="rightMargin">
-        <number>0</number>
-       </property>
-       <property name="bottomMargin">
+       <property name="margin">
         <number>0</number>
        </property>
        <property name="spacing">
@@ -589,21 +481,12 @@
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>764</width>
-            <height>146</height>
+            <width>760</width>
+            <height>135</height>
            </rect>
           </property>
           <layout class="QGridLayout" name="gridLayoutObjects2">
-           <property name="leftMargin">
-            <number>5</number>
-           </property>
-           <property name="topMargin">
-            <number>5</number>
-           </property>
-           <property name="rightMargin">
-            <number>5</number>
-           </property>
-           <property name="bottomMargin">
+           <property name="margin">
             <number>5</number>
            </property>
            <property name="spacing">
@@ -648,16 +531,7 @@
        <string>Symbols</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayoutSymbols">
-       <property name="leftMargin">
-        <number>0</number>
-       </property>
-       <property name="topMargin">
-        <number>0</number>
-       </property>
-       <property name="rightMargin">
-        <number>0</number>
-       </property>
-       <property name="bottomMargin">
+       <property name="margin">
         <number>0</number>
        </property>
        <property name="spacing">
@@ -676,21 +550,12 @@
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>764</width>
-            <height>146</height>
+            <width>760</width>
+            <height>135</height>
            </rect>
           </property>
           <layout class="QGridLayout" name="gridLayoutSymbols2">
-           <property name="leftMargin">
-            <number>5</number>
-           </property>
-           <property name="topMargin">
-            <number>5</number>
-           </property>
-           <property name="rightMargin">
-            <number>5</number>
-           </property>
-           <property name="bottomMargin">
+           <property name="margin">
             <number>5</number>
            </property>
            <property name="spacing">
@@ -735,16 +600,7 @@
        <string>Square Buttons</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayoutSquareButtons">
-       <property name="leftMargin">
-        <number>0</number>
-       </property>
-       <property name="topMargin">
-        <number>0</number>
-       </property>
-       <property name="rightMargin">
-        <number>0</number>
-       </property>
-       <property name="bottomMargin">
+       <property name="margin">
         <number>0</number>
        </property>
        <property name="spacing">
@@ -763,21 +619,12 @@
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>764</width>
-            <height>146</height>
+            <width>760</width>
+            <height>135</height>
            </rect>
           </property>
           <layout class="QGridLayout" name="gridLayoutSquareButtons2">
-           <property name="leftMargin">
-            <number>5</number>
-           </property>
-           <property name="topMargin">
-            <number>5</number>
-           </property>
-           <property name="rightMargin">
-            <number>5</number>
-           </property>
-           <property name="bottomMargin">
+           <property name="margin">
             <number>5</number>
            </property>
            <property name="spacing">
