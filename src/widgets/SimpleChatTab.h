@@ -50,6 +50,8 @@ public slots:
 	void typingTimerOnTimer();
 	void scrollDownChatWidget();
 
+	void emojiDoubleClicked(QString const& emoji);
+
 	void fileDownloaderCallbackTaskFinished(CallbackTask* callbackTask);
 protected:
 	virtual bool sendText(MessageId const& uniqueMessageId, QString const& text) = 0;
@@ -59,12 +61,19 @@ protected:
 	virtual MessageId getUniqueMessageId() = 0;
 	virtual void setStatusLine(QString const& newStatus);
 
+	static QString getContactPrintableId(Contact const* const c);
+	virtual void writeMessageToLog(QString const& message);
+
 	UniqueMessageIdGenerator* const uniqueMessageIdGenerator;
 private:
 	Ui::SimpleChatTab *ui;
 	Contact* const contact;
 	QHash<MessageId, ChatWidgetItem*> messageIdToItemIndex;
 	QVector<MessageId> unseenMessages;
+
+	// Should we write a Log?
+	bool writeMessagesToLog;
+	QString messageLogFilename;
 
 	// Handling for Typing Notifications
 	bool isTyping;
